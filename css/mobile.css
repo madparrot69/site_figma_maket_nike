@@ -17,7 +17,7 @@ body .firstSection {
   height: 737px;
   width: 360px;
   overflow: hidden;
-  background-image: url(../img/hero/hero_mobile1.png);
+  background-image: url(./img/hero/hero_mobile1.png);
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
@@ -25,7 +25,7 @@ body .firstSection {
 body .firstSection .burgerMenu {
   height: 25px;
   width: 45px;
-  background-image: url(../img/icon/burger_menu.svg);
+  background-image: url(./img/icon/burger_menu.svg);
   position: absolute;
   right: 28px;
   top: 44px;
@@ -33,7 +33,7 @@ body .firstSection .burgerMenu {
 }
 body .firstSection .burgerMenu:hover {
   transition: 0.4s;
-  background-image: url(../img/icon/burger_menu__hover.svg);
+  background-image: url(./img/icon/burger_menu__hover.svg);
 }
 body .firstSection .logoDiv1 {
   height: 80px;
