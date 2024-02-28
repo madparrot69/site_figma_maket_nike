@@ -20,7 +20,7 @@ body {
     width: 360px;
     overflow: hidden;
 
-    background-image: url(../img/photo/hero/hero_mobile1.png);
+    background-image: url(../img/hero/hero_mobile1.png);
     background-repeat: no-repeat;
 
     position: relative;
@@ -30,7 +30,7 @@ body {
       height: 25px;
       width: 45px;
 
-      background-image: url(./img/icon/burger_menu.svg);
+      background-image: url(../img/icon/burger_menu.svg);
 
       position: absolute;
       right: 28px;
@@ -39,7 +39,7 @@ body {
       cursor: pointer;
       &:hover {
         transition: 0.4s;
-        background-image: url(./img/icon/burger_menu__hover.svg);
+        background-image: url(../img/icon/burger_menu__hover.svg);
       }
     }
     .logoDiv1 {
