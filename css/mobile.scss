@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  height: 3764px;
+  width: 360px;
+
+  transition: 0.4s;
+
+  header {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .firstSection {
+    height: 737px;
+    width: 360px;
+    overflow: hidden;
+
+    background-image: url(/img/hero/hero_mobile1.png);
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    color: #fff;
+    .burgerMenu {
+      height: 25px;
+      width: 45px;
+
+      background-image: url(/img/icon/burger_menu.svg);
+
+      position: absolute;
+      right: 28px;
+      top: 44px;
+
+      cursor: pointer;
+      &:hover {
+        transition: 0.4s;
+        background-image: url(/img/icon/burger_menu__hover.svg);
+      }
+    }
+    .logoDiv1 {
+      height: 80px;
+      width: 96px;
+      // padding: 60px;
+      box-sizing: border-box;
+
+      position: relative;
+
+      top: 44px;
+      .logo {
+        height: 72px;
+        width: 96px;
+        top: -1px;
+        left: 7px;
+      }
+      p {
+        font-size: 24px;
+        font-family: "PT Serif";
+        font-weight: 400;
+
+        position: absolute;
+
+        bottom: 0px;
+        left: 22px;
+      }
+    }
+    .textContainer1 {
+      height: 407px;
+      width: 308px;
+
+      box-sizing: border-box;
+      position: relative;
+      top: 37px;
+      left: calc(50% - 154px);
+      h1 {
+        font-size: 64px;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Playfair Display";
+      }
+      .coloRaweDiv {
+        height: 338px;
+        width: 305px;
+        position: relative;
+
+        h2 {
+          font-size: 36px;
+          font-weight: 400;
+          color: #fff;
+          font-family: "Playfair Display";
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+          color: #fff;
+          margin-top: 15px;
+          font-family: "Roboto";
+        }
+        button {
+          background: #8e32c6;
+          border: none;
+          border-radius: 10px;
+
+          z-index: 9;
+
+          height: 57px;
+          width: 238px;
+
+          font-size: 24px;
+          font-weight: 0;
+          color: #fff;
+          font-family: "Roboto";
+          padding: 10px, 20px;
+
+          position: absolute;
+          bottom: 0;
+          left: calc(50% - 119px);
+
+          cursor: pointer;
+          &:hover {
+            background: #ac63da;
+          }
+          &:active {
+            transform: translateY(2px);
+            background: #dfaefd;
+          }
+        }
+      }
+    }
+    img {
+      position: absolute;
+      bottom: 0;
+      left: -75px;
+
+      height: 450px;
+    }
+  }
+}
