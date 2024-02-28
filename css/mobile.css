@@ -17,7 +17,7 @@ body .firstSection {
   height: 737px;
   width: 360px;
   overflow: hidden;
-  background-image: url(./img/hero/hero_mobile1.PNG);
+  background-image: url(../img/photo/hero/hero_mobile1.png);
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
